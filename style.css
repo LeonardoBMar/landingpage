@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+
+body {
+    font-size: 100%;
+
+}
+
+.background {
+    background: linear-gradient(90deg, #051102 0.06%, #10401D 99.93%);
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+    background: linear-gradient(90deg, #0d1a01 0.06%, #10401D 99.93%);
+    box-shadow: 5px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 32px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: rgb(255, 252, 252);
+
+
+}
+
+
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+
+}
+
+.conteudo-principal-div {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+
+}
+
+.conteudo-principal-titulo {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: white;
+
+}
+
+.conteudo-principal-subtitulo {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: white;
+    font-size: 15px;
+}
+
+.conteudo-principal-botao {
+    background-color: rgba(72, 255, 0, 0.418);
+    width: 180px;
+    height: 60px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 550;
+    color: rgb(255, 255, 255);
+    margin-top: 20px;
+
+}
+
+.conteudo-principal-secao-informacoes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    padding-top: 50px;
+    padding-bottom: 120px;
+
+
+}
+
+.conteudo-principal-informacoes {
+    border-top: 1px solid rgb(218, 206, 206);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: white;
+    padding-bottom: 10px;
+    padding-top: 20px;
+
+}
+
+.conteudo-principal-paragrafo {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: white;
+}
+
+.rodape {
+    padding: 20px;
+    border-top: 1px solid rgb(218, 206, 206);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: white;
+    font-size: 15px;
+    background: #353535;
+}
+
+.formulario {
+    background-color: rgb(250, 250, 250);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+
+}
+
+li {
+    list-style-type: none;
+}
+
+.formulario-form {
+    background-color: white;
+    padding: 70px;
+    margin-top: 10px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 6px #0000001C;
+}
+
+.input-box {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+
+}
+
+.input-box input {
+    margin: 0.6rem 0;
+    padding: 6px 20px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px #0000001C;
+}
+
+.input-group {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.correspondente select {
+    margin: 0.6rem 0;
+    padding: 6px 50px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px #0000001C;
+}
+
+.vendedores select {
+    margin: 0.6rem 0;
+    padding: 6px 32px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px #0000001C;
+    text-align: center;
+}
+
+.botao {
+    width: 100px;
+    height: 50px;
+    margin-top: 10px;
+    border: none;
+    background-color: rgb(0, 252, 96);
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+.botao:hover {
+    background-color: rgb(10, 138, 10);
+
+}
+
+.conteudo-formulario-titulo {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    color: linear-gradient(90deg, #282626 0.06%, #272222 99.93%);
+    font-size: 30px;
+    padding-bottom: 50px;
+
+
+}
+
+.confirm {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
