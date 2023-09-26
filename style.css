@@ -38,6 +38,10 @@ body {
 
 }
 
+.cabecalho-menu-item {
+    cursor: pointer;
+}
+
 
 
 .conteudo-principal {
@@ -71,7 +75,7 @@ body {
 }
 
 .conteudo-principal-botao {
-    background-color: rgba(72, 255, 0, 0.418);
+    background-color: rgba(47, 167, 0, 0.829);
     width: 180px;
     height: 60px;
     border-radius: 20px;
@@ -81,7 +85,12 @@ body {
     font-weight: 550;
     color: rgb(255, 255, 255);
     margin-top: 20px;
+    cursor: pointer;
 
+}
+
+.conteudo-principal-botao:hover {
+    background-color: rgba(10, 138, 10, 0.534);
 }
 
 .conteudo-principal-secao-informacoes {
